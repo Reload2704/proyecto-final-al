@@ -90,5 +90,6 @@ d["Semanales"] = sem
 d["Mensuales"] = mes
 
 #Guardar los datos en un archivo excel
-data = pd.DataFrame(d, index=lipro)
+lingr = ["Azúcar","Mantequilla","Harina","Sal","Levadura","Queso crema","Canela","Leche","Huevos"]
+data = pd.DataFrame(d, index=lingr)
 data.to_excel("Tabla-Leontief-Gramos.xlsx", sheet_name="hoja1")
