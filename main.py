@@ -75,7 +75,7 @@ limatx = matx.tolist()
 print("\nCantidad de ingredientes diarios aplicando Leontief\n")
 for i in range(len(lix)):
   print(f"{lix[i]} = {limatx[i]}")
-
+  
 d = {}
 dia = matx.tolist()
 sem = matx * 7
